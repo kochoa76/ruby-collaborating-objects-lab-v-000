@@ -29,5 +29,9 @@ class Artist
   end  || self.new(artist_name)
 end 
 
+  def print_songs
+    @songs 
+  end 
+
   
 end 
