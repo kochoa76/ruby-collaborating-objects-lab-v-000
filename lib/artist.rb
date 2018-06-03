@@ -30,7 +30,10 @@ class Artist
 end 
 
   def print_songs
-    print @songs.join("")
+    print @songs.map do |song|
+    song.name 
+  end 
+end 
   end 
 
   
