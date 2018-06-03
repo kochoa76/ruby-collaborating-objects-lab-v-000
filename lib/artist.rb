@@ -20,7 +20,11 @@ class Artist
   end 
   
   def save 
-  @@all<<self 
-end 
+    @@all<<self 
+  end 
+
+  def self.find_or_create_by_name(name)
+    @@all.find_by do |name|
+    name == name 
   
 end 
