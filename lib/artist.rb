@@ -30,7 +30,7 @@ class Artist
 end 
 
   def print_songs
-    print @songs.map do |song|
+    print @songs.each do |song|
     song.name 
   end 
 end 
