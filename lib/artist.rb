@@ -30,7 +30,7 @@ class Artist
 end 
 
   def print_songs
-    print @songs.join
+    print @songs.join("")
   end 
 
   
